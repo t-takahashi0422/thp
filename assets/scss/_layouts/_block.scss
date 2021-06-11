@@ -1,0 +1,16 @@
+
+.b-widthS {
+    @include l_pc(){
+        max-width: 980px;
+    }
+}
+.b-widthM {
+    @include l_pc(){
+        max-width: 1440px;
+    }
+}
+.b-widthL {
+    @include l_pc(){
+        max-width: 100%;
+    }
+}
