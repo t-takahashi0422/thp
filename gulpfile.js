@@ -10,11 +10,7 @@ gulp.task("default", function() {
     gulp
       .src("assets/scss/style.scss")
       // Sassのコンパイルを実行
-      .pipe(
-          sass({
-            outputStyle: "compressed"
-          })
-      )
+      .pipe(sass())
       // cssフォルダー以下に保存
       .pipe(gulp.dest("assets/css"))
   );
