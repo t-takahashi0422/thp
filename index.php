@@ -12,7 +12,7 @@
                     </div>
                     <div class="b-widthS l-heroPoint">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hero_point_01.svg" alt="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hero_point_01.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hero_point_02.svg" alt="">
                     </div>
                 </div>
             </section>
@@ -49,6 +49,8 @@
                 <div class="b-widthM b-paddingArrow">
                     <h2 class="e-title"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/case_title.svg" alt=""></h2>
                     <?php include("include/index_case.php"); ?>
+                    <div class="e-caseArrow"></div>
+                    <?php include("include/index_case2.php"); ?>
                 </div>
             </section>
             <section id="reason" class="l-contents">
@@ -114,8 +116,8 @@
                     if(width <= 768){
                         $('.m-slideList').not('.slick-initialized').slick({
                             autoplay: true,
-                            fade: true,
-                            dots: true,
+                            fade: false,
+                            dots: false,
                             arrows: false
                         });
                     } else {
