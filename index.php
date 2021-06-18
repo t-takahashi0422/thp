@@ -10,6 +10,10 @@
                         <h2 class="e-catch">それって<br>「投資用マンション被害」!?</h2>
                         <p class="e-cap">専門の弁護士が契約解消・売却をサポートします！</p>
                     </div>
+                    <div class="b-widthS l-heroPoint">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hero_point_01.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hero_point_01.svg" alt="">
+                    </div>
                 </div>
             </section>
 <!--キービジュアル-->

@@ -131,7 +131,7 @@ h1 img {
 
 .e-catch {
   font-size: 28px;
-  font-family: "NotoSansfJP";
+  font-family: "NotoSansJP";
   font-weight: 800;
   margin: 10px auto;
   line-height: 1.7; }
@@ -522,6 +522,28 @@ m-form
 .l-hero {
   width: 100%; }
 
+.l-heroPoint {
+  position: absolute;
+  display: flex;
+  bottom: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: space-around; }
+  @media only screen and (min-width: 768px) {
+    .l-heroPoint {
+      justify-content: flex-end;
+      right: 20px;
+      bottom: -110px;
+      left: inherit;
+      transform: inherit; } }
+  .l-heroPoint img {
+    width: 140px; }
+    @media only screen and (min-width: 768px) {
+      .l-heroPoint img {
+        width: 180px;
+        margin: 0;
+        margin-right: 20px; } }
+
 .l-content {
   width: 100%;
   margin: 0 auto; }
@@ -571,14 +593,15 @@ main {
 #hero
 
 */
-#hero img {
-  margin-bottom: 20px; }
-
-#hero h2 {
-  font-size: 26px; }
-  @media only screen and (min-width: 768px) {
-    #hero h2 {
-      font-size: 3.8vw; } }
+#hero {
+  position: relative; }
+  #hero img {
+    margin-bottom: 20px; }
+  #hero h2 {
+    font-size: 26px; }
+    @media only screen and (min-width: 768px) {
+      #hero h2 {
+        font-size: 3.8vw; } }
 
 /*
 
