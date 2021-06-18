@@ -107,6 +107,9 @@ br {
 
 h1 img {
   height: 25px; }
+  @media only screen and (min-width: 768px) {
+    h1 img {
+      height: 50px; } }
 
 .e-tcWhite {
   color: #fff; }
@@ -157,6 +160,10 @@ h1 img {
     .e-txt {
       font-size: 1.6vw;
       line-height: 2.5vw; } }
+
+.e-tbOrange {
+  display: inline;
+  background: linear-gradient(transparent 50%, #f29600 50%); }
 
 /*
 
@@ -250,10 +257,12 @@ hamburger menu
         .m-pcNav__menuListItem a {
           display: inline-block;
           width: 100%;
-          line-height: 55px;
+          line-height: 80px;
           color: #000;
           font-size: 18px;
-          font-weight: bold; } }
+          font-weight: bold; }
+      .m-pcNav__menuListItem:last-of-type a {
+        color: #f29600; } }
 
 /*
 
@@ -542,6 +551,9 @@ header {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
   z-index: 9999;
   background-color: #fff; }
+  @media only screen and (min-width: 768px) {
+    header {
+      height: 80px; } }
 
 /*
 
@@ -550,6 +562,9 @@ main
 */
 main {
   padding-top: 55px; }
+  @media only screen and (min-width: 768px) {
+    main {
+      padding-top: 80px; } }
 
 /*
 

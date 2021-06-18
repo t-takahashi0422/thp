@@ -36,7 +36,7 @@ if ( $the_query->have_posts() ) :
 
 				        <li>
 				            <img src="<?php echo $reason_img; ?>" alt="">
-    				        <p class="e-cap"><?php echo $reason_lead; ?></p>
+    				        <p class="e-cap e-tbOrange"><?php echo $reason_lead; ?></p>
     				        <p class="e-txt"><?php echo $reason_text; ?></p>
 				        </li>
 
