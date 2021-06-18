@@ -1,13 +1,11 @@
 
         <footer>
-            <div>
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
+            <div class="b-padding">
+                <p class="e-txt e-tcWhite">弁護士法人THP</p>
+                <p class="e-txt e-tcWhite">弁護士：二森礼央</p>
+                <p class="e-txt e-tcWhite">所属弁護士会：第二東京弁護士会</p>
             </div>
+            <small>Copyright © xxx xxx ALL Rights Reserved.</small>
         </footer>
     </div>
    	<?php wp_footer(); ?> 

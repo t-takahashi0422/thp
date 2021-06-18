@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta name="description">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/base.js"></script>
     
@@ -31,6 +34,16 @@
                     <li class="m-spNav__menuListItem"><a href="#price">費用</a></li>
                     <li class="m-spNav__menuListItem"><a href="#qa">よくあるご質問</a></li>
                     <li class="m-spNav__menuListItem"><a href="#cv">無料相談</a></li>
+                </ul>
+            </nav>
+            <nav class="m-pcNav">
+                <ul class="m-pcNav__menuList">
+                    <li class="m-pcNav__menuListItem"><a href="#case">事例</a></li>
+                    <li class="m-pcNav__menuListItem"><a href="#reason">選ばれる理由</a></li>
+                    <li class="m-pcNav__menuListItem"><a href="#flow">解決までの流れ</a></li>
+                    <li class="m-pcNav__menuListItem"><a href="#price">費用</a></li>
+                    <li class="m-pcNav__menuListItem"><a href="#qa">よくあるご質問</a></li>
+                    <li class="m-pcNav__menuListItem"><a href="#cv">無料相談</a></li>
                 </ul>
             </nav>
         </header>
