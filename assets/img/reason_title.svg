@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500.005" height="94" viewBox="0 0 500.005 94">
+  <g id="グループ_83" data-name="グループ 83" transform="translate(1313 -1113.833)">
+    <rect id="長方形_125" data-name="長方形 125" width="500.005" height="94" transform="translate(-1313 1113.833)" fill="none"/>
+    <text id="REASON" transform="translate(-1064.461 1164.833)" fill="#f29600" font-size="71" font-family="Gotham-Bold, Gotham" font-weight="700" letter-spacing="0.05em"><tspan x="-167.311" y="0">REASON</tspan></text>
+    <g id="グループ_20" data-name="グループ 20" transform="translate(-1313 1151.129)">
+      <g id="グループ_19" data-name="グループ 19" transform="translate(0)">
+        <g id="グループ_18" data-name="グループ 18">
+          <rect id="長方形_1" data-name="長方形 1" width="29.851" height="9.029" transform="translate(0 10.411)" fill="#002063"/>
+          <rect id="長方形_2" data-name="長方形 2" width="29.851" height="9.029" fill="#002063"/>
+          <rect id="長方形_3" data-name="長方形 3" width="29.851" height="9.029" transform="translate(0 20.822)" fill="#002063"/>
+        </g>
+      </g>
+    </g>
+    <g id="グループ_23" data-name="グループ 23" transform="translate(-842.846 1151.129)">
+      <g id="グループ_22" data-name="グループ 22" transform="translate(0)">
+        <g id="グループ_21" data-name="グループ 21">
+          <rect id="長方形_4" data-name="長方形 4" width="29.851" height="9.029" transform="translate(0 10.411)" fill="#002063"/>
+          <rect id="長方形_5" data-name="長方形 5" width="29.851" height="9.029" fill="#002063"/>
+          <rect id="長方形_6" data-name="長方形 6" width="29.851" height="9.029" transform="translate(0 20.822)" fill="#002063"/>
+        </g>
+      </g>
+    </g>
+    <text id="選ばれる理由" transform="translate(-1063.864 1202.967)" font-size="25" font-family="HiraginoSans-W3, Hiragino Sans" letter-spacing="0.05em"><tspan x="-78.125" y="0">選ばれる理由</tspan></text>
+  </g>
+</svg>
