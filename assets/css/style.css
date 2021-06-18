@@ -165,6 +165,15 @@ h1 img {
   display: inline;
   background: linear-gradient(transparent 50%, #f29600 50%); }
 
+.e-caseArrow {
+  display: block;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #f29600; }
+
 /*
 
 position
