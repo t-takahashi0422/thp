@@ -9,7 +9,10 @@ $(function() {
         }
     });
     $('.m-hm').click(function(){
-    $header.toggleClass('open');
+        $header.toggleClass('open');
+    });
+    $('.m-spNav__menuListItem a').click(function(){
+        $header.removeClass('open');
     });
 });
 
