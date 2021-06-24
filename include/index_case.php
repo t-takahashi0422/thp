@@ -9,46 +9,31 @@ $the_query = new WP_Query( array(
 	'post_type' => 'case',
 	'posts_per_page' => 3,
 ) );
-
-if ( $the_query->have_posts() ) :
 ?>
-
-
                     <div class="m-slide">
 					    <ul class="m-slideList">
-
-
 <?php
-	while ( $the_query->have_posts() ) : $the_query->the_post();
-
-		global $post;
-		$post_id = get_the_ID();
-
-		// カテゴリの取得
-		$cat_list = get_the_terms($post_id, 'cat_case');
-		$cat_label = '';
-        
-		if (is_array($cat_list)) {
-            if ( count( $cat_list ) > 0 ) 
-            $cat_label = $cat_list[0]->name;
-		}
-                        
-        $case_img   = get_field('case_img');
-        $case_text  = get_field('case_text');
-
+if(have_rows('case_list', 68)) :
+	while (have_rows('case_list', 68)): the_row();
+		$case_img = get_sub_field('case_img');
+        $case_text01   = get_sub_field('case_text01');
+        $case_text02   = get_sub_field('case_text02');
 ?>
-
-				            <li class="m-slideListItem">
-				                <img src="<?php echo $case_img; ?>" alt="">
-    				            <p class="e-txt"><?php echo $case_text; ?></p>
-				    	    </li>
-
-<?php
+                            <li class="m-slideListItem">
+                                <div class="m-slideListItemImg">
+				                    <img src="<?php echo $case_img; ?>" alt="">
+				                </div>
+				                <div class="m-slideListItemTxt">
+    				                <p class="e-text"><?php echo $case_text01; ?></p>
+    				                <p class="e-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/case_material.svg" alt=""></p>
+    				                <p class="e-cap"><?php echo $case_text02; ?></p>
+                                </div>
+                            </li>
+<?php                           
 	endwhile;
 ?>
-					    </ul>
+                        </ul>
                     </div>
-
 <?php
 endif;
 

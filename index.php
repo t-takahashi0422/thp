@@ -13,6 +13,7 @@
                     <div class="b-widthS l-heroPoint">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hero_point_01.svg" alt="">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hero_point_02.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hero_point_03.svg" alt="">
                     </div>
                 </div>
             </section>
@@ -43,14 +44,12 @@
             </section>
             <section id="case" class="l-contents l-bcGray l-arrow">
                 <div class="b-txt b-paddingBottom">
-                    <p class="e-catch e-tbOrange">そんなあなたの悩みに、<br>弁護士法人THPが親身に<br>相談に乗ります。</p>
+                    <p class="e-catch e-tbOrange">そんなあなたの悩みに、<br>弁護士法人ＴＨＰが親身に<br>相談に乗ります。</p>
                     <p class="e-cap">他人に悩みを話すことは、勇気がいることかもしれませんが、あなたの幸せな生活を取り戻すために一度お話を聞かせてください。</p>
                 </div>
                 <div class="b-widthM b-paddingArrow">
                     <h2 class="e-title"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/case_title.svg" alt=""></h2>
                     <?php include("include/index_case.php"); ?>
-                    <div class="e-caseArrow"></div>
-                    <?php include("include/index_case2.php"); ?>
                 </div>
             </section>
             <section id="reason" class="l-contents">
@@ -74,13 +73,6 @@
                                     <tr><td colspan="2">通常プラン</td></tr>
 		                            <tr><td>着手金</td><td>３０万円/税別</td></tr>
 		                            <tr><td>成果報酬</td><td>４％〜</td></tr>
-                                </tbody>
-                            </table>
-                            <table class="m-tbl e-cap">
-	                            <tbody>
-                                    <tr><td colspan="2">完全成果報酬プラン</td></tr>
-		                            <tr><td>着手金</td><td>０円</td></tr>
-		                            <tr><td>成果報酬</td><td>８％〜</td></tr>
                                 </tbody>
                             </table>
                 </div>
@@ -118,7 +110,8 @@
                             autoplay: true,
                             fade: false,
                             dots: false,
-                            arrows: false
+                            arrows: true,
+                            autoplay: false
                         });
                     } else {
                         $('.m-slideList.slick-initialized').slick('unslick');
