@@ -8,8 +8,13 @@ reason
 
                 <div class="m-form b-widthS">
                     <div class="m-formLine">
-                        <p class="e-cap">LINEで相談する</p>
-                        <a class="e-catch" href="">友達追加</a>
+                        <div class="m-formLineTxt">
+                            <h2 class="e-cap">LINEで相談する</h2>
+                            <a class="e-catch" href="">友達追加</a>
+                            <hr>
+                            <span>24時間いつでもお問い合わせください。受付後１営業日以内に必ず返信させていただきます。<br class="pc">土日祝日、夜間でもラインで問い合わせいただければ、可能な限り迅速に対応させていただきます。</span>
+                        </div>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/line.svg" alt="">
                     </div>
                     <div class="m-formTell">
                         <p class="e-cap">電話でお問い合わせ</p>
