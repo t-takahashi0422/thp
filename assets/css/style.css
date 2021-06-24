@@ -802,7 +802,6 @@ h1 img {
 
 .e-title {
   font-size: 24px;
-  font-family: "NotoSansJP";
   font-weight: 700;
   margin: 0 auto 20px;
   line-height: 1.5; }
@@ -818,7 +817,6 @@ h1 img {
 
 .e-catch {
   font-size: 5.5vw;
-  font-family: "NotoSansJP";
   font-weight: 700;
   margin: 10px auto;
   line-height: 1.7; }
@@ -828,7 +826,6 @@ h1 img {
 
 .e-cap {
   font-size: 4vw;
-  font-family: "NotoSansJP";
   font-weight: 500;
   margin: 10px auto;
   line-height: 2; }
@@ -839,7 +836,6 @@ h1 img {
 
 .e-txt {
   font-size: 16px;
-  font-family: "NotoSansJP";
   font-weight: 200;
   margin: 10px auto;
   line-height: 2; }
