@@ -94,6 +94,7 @@
                     <img class="e-child" src="<?php echo get_template_directory_uri(); ?>/assets/img/cv.svg" alt="">
                 </div>
                 <?php include("include/index_form.php"); ?>
+                <?php include("include/index_cvbutton.php"); ?>
             </section>
         </main>
         

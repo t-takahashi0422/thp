@@ -6,7 +6,7 @@ reason
 */
 ?>				   
 
-                <div class="m-form b-widthS">
+                <div id="form" class="m-form b-widthS">
                     <div class="m-formLine">
                         <div class="m-formLineTxt">
                             <h2 class="e-cap">LINEで相談する</h2>

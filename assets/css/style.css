@@ -38,7 +38,7 @@ body {
 .l-heroPoint {
   position: absolute;
   display: flex;
-  bottom: -70px;
+  bottom: -75px;
   left: 50%;
   transform: translateX(-50%);
   justify-content: space-around; }
@@ -116,7 +116,7 @@ main {
     font-size: 7vw; }
     @media only screen and (min-width: 768px) {
       #hero h2 {
-        font-size: 3.8vw; } }
+        font-size: 3.7vw; } }
 
 /*
 
@@ -394,6 +394,11 @@ hamburger menu
       font-weight: bold;
       color: #000;
       line-height: 80px; }
+  .m-spNav__menuListItem:last-of-type a {
+    margin: 0 auto;
+    width: 90%;
+    background-color: #f29600;
+    color: #fff; }
 
 .m-pcNav {
   display: none;
@@ -404,24 +409,24 @@ hamburger menu
       .m-pcNav__menuList {
         position: absolute;
         top: 0;
-        right: 20px;
+        right: 1%;
         display: flex;
         justify-content: space-between;
-        width: 50%;
-        min-width: 650px;
-        max-width: 1200px;
+        width: 66vw;
         margin: 0; }
       .m-pcNav__menuListItem {
-        margin: 0 1%; }
+        margin: 0 2%; }
         .m-pcNav__menuListItem a {
           display: inline-block;
           width: 100%;
           line-height: 80px;
           color: #000;
-          font-size: 18px;
+          font-size: 1.6vw;
           font-weight: bold; }
       .m-pcNav__menuListItem:last-of-type a {
-        color: #f29600; } }
+        padding: 0 20px;
+        background-color: #f29600;
+        color: #fff; } }
 
 /*
 
@@ -656,19 +661,41 @@ accordion
 
 /*
 
-m-card
+m-float
 
 */
-/*
+.m-float {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.8); }
+  @media only screen and (min-width: 768px) {
+    .m-float {
+      height: 100px; } }
+  .m-float a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 90%;
+    height: 60px;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    line-height: 60px;
+    background-color: #f29600; }
+    @media only screen and (min-width: 768px) {
+      .m-float a {
+        font-size: 48px;
+        max-width: 980px;
+        height: 80px;
+        line-height: 80px; } }
+  @media only screen and (min-width: 768px) {
+    .m-float a:hover {
+      text-decoration: none;
+      opacity: .8; } }
 
-m-grid
-
-*/
-/*
-
-m-grid
-
-*/
 /*
 
 m-form
