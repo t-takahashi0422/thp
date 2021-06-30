@@ -205,6 +205,7 @@ main {
     margin-bottom: 40px; }
     @media only screen and (min-width: 768px) {
       #reason ul li {
+        width: 30%;
         margin: 0 2%; } }
   #reason ul li:last-of-type {
     margin-bottom: 0; }
@@ -293,12 +294,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .b-widthL {
-    max-width: 100%; } }
-
-.b-txt {
-  max-width: 980px;
-  margin: 0 auto;
-  position: relative; }
+    max-width: 1980px; } }
 
 .b-imgS {
   max-width: 600px;
@@ -454,7 +450,8 @@ list
 */
 .m-list {
   list-style: none;
-  padding: 0; }
+  padding: 0;
+  display: inline-block; }
   .m-list .m-listItem {
     padding-left: 50px;
     background: url(../img/list.svg) left 0px top 0.4vw no-repeat;
@@ -471,10 +468,8 @@ parallax
 */
 .m-parallaxX {
   width: 100%;
-  z-index: 0;
-  position: relative; }
+  z-index: 0; }
   .m-parallaxX img.m-parallaxItem {
-    position: absolute;
     top: 100px;
     max-width: inherit;
     width: 100%;
@@ -489,25 +484,42 @@ slider
   background-color: #fff;
   border-radius: 20px;
   border: 2px solid #002063;
-  padding: 20px; }
+  padding: 20px;
+  position: relative; }
   @media only screen and (min-width: 768px) {
     .m-slide .m-slideListItem {
       width: 100%;
       display: flex;
       justify-content: space-between;
-      margin: 20px auto;
+      margin: 20px auto 40px;
       padding: 30px; } }
-  .m-slide .m-slideListItem .m-slideListItemImg {
+  .m-slide .m-slideListItemTtl {
+    text-align: center;
+    padding: 5px 8px;
+    border: 2px solid #002063;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #002063;
+    font-weight: bold;
+    margin-bottom: 20px; }
+    @media only screen and (min-width: 768px) {
+      .m-slide .m-slideListItemTtl {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 0; } }
+  .m-slide .m-slideListItemImg {
     position: relative; }
     @media only screen and (min-width: 768px) {
-      .m-slide .m-slideListItem .m-slideListItemImg {
+      .m-slide .m-slideListItemImg {
         width: 50%;
         margin-right: 20px; } }
-    .m-slide .m-slideListItem .m-slideListItemImg img {
+    .m-slide .m-slideListItemImg img {
       width: 100%;
       border-radius: 20px; }
       @media only screen and (min-width: 768px) {
-        .m-slide .m-slideListItem .m-slideListItemImg img {
+        .m-slide .m-slideListItemImg img {
           max-height: 220px;
           width: auto;
           position: absolute;
@@ -515,19 +527,19 @@ slider
           left: 50%;
           transform: translate(-50%, -50%); } }
   @media only screen and (min-width: 768px) {
-    .m-slide .m-slideListItem .m-slideListItemTxt {
+    .m-slide .m-slideListItemTxt {
       width: 100%; } }
-  .m-slide .m-slideListItem .m-slideListItemTxt .e-text {
+  .m-slide .m-slideListItemTxt .e-text {
     font-size: 16px;
     font-weight: 200;
     margin: 10px auto;
     line-height: 1.7; }
     @media only screen and (min-width: 768px) {
-      .m-slide .m-slideListItem .m-slideListItemTxt .e-text {
+      .m-slide .m-slideListItemTxt .e-text {
         line-height: 1.5; } }
-  .m-slide .m-slideListItem .m-slideListItemTxt .e-img img {
+  .m-slide .m-slideListItemTxt .e-img img {
     height: 30px; }
-  .m-slide .m-slideListItem .m-slideListItemTxt .e-cap {
+  .m-slide .m-slideListItemTxt .e-cap {
     font-size: 16px;
     background-color: #002063;
     padding: 20px;
@@ -537,7 +549,7 @@ slider
     border-radius: 20px;
     margin: 20px 0 0; }
     @media only screen and (min-width: 768px) {
-      .m-slide .m-slideListItem .m-slideListItemTxt .e-cap {
+      .m-slide .m-slideListItemTxt .e-cap {
         line-height: 1.5; } }
 
 .m-slide .slick-prev,
@@ -711,7 +723,7 @@ m-float
       display: block; } }
 
 .m-float:hover {
-  background-color: #002063;
+  opacity: .8;
   transition: .3s; }
 
 /*
@@ -803,7 +815,8 @@ m-form
       color: #aaaaaa; }
   .m-form .btn_cf7.e-catch {
     text-align: center;
-    font-size: 2rem; }
+    font-size: 2rem;
+    display: block; }
   .m-form .btn_cf7 input {
     width: 100%;
     height: 80px;
@@ -861,6 +874,7 @@ h1 img {
     margin: 0 auto; }
 
 .e-catch {
+  display: inline-block;
   font-size: 5.5vw;
   font-weight: 700;
   margin: 10px auto;
@@ -887,7 +901,7 @@ h1 img {
   @media only screen and (min-width: 768px) {
     .e-txt {
       font-size: 1.6vw;
-      line-height: 2.5vw; } }
+      line-height: 3vw; } }
 
 .e-tbOrange {
   display: inline;
