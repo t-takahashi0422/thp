@@ -14,12 +14,17 @@ $the_query = new WP_Query( array(
 					    <ul class="m-slideList">
 <?php
 if(have_rows('case_list', 68)) :
+    $count=1;
 	while (have_rows('case_list', 68)): the_row();
+		$case_title = get_sub_field('case_title');
 		$case_img = get_sub_field('case_img');
         $case_text01   = get_sub_field('case_text01');
         $case_text02   = get_sub_field('case_text02');
 ?>
                             <li class="m-slideListItem">
+                                <div class="m-slideListItemTtl">
+                                    <p><?php echo 'CASE.'.$count.' - '.$case_title; ?></p>
+                                </div>
                                 <div class="m-slideListItemImg">
 				                    <img src="<?php echo $case_img; ?>" alt="">
 				                </div>
@@ -29,12 +34,15 @@ if(have_rows('case_list', 68)) :
     				                <p class="e-cap"><?php echo $case_text02; ?></p>
                                 </div>
                             </li>
-<?php                           
+
+<?php $count++;  ?>
+<?php
 	endwhile;
 ?>
                         </ul>
                     </div>
 <?php
+
 endif;
 
 // 投稿データをリセット

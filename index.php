@@ -3,11 +3,11 @@
         
 <!--キービジュアル-->
             <section id="hero" class="l-hero">
-                <div class="b-widthS b-paddingBottom">
+                <div class="b-widthM b-paddingBottom">
                     <img class="b-imgL" src="<?php echo get_template_directory_uri(); ?>/assets/img/hero.svg" alt="">
-                    <div class="b-txt">
+                    <div class="">
                         <p class="e-cap">投資用マンションを購入して後悔していませんか？</p>
-                        <h2 class="e-catch">それって<br>「投資用マンション被害」!?</h2>
+                        <h2 class="e-catch">その契約、白紙に戻して<br>あなたの大切なお金を<br>取り返せるかもしれません！</h2>
                         <p class="e-cap">専門の弁護士が契約解消・売却をサポートします！</p>
                     </div>
                     <div class="b-widthS l-heroPoint">
@@ -19,19 +19,19 @@
             </section>
 <!--キービジュアル-->
             <section id="may" class="l-contents l-bcBlue">
-                <div class="b-widthL m-parallaxX">
-                    <img class="m-parallaxItem" src="<?php echo get_template_directory_uri(); ?>/assets/img/may.svg" alt="">
+                <div class="b-widthL m-parallaxX e-parent">
+                    <img class="m-parallaxItem e-child" src="<?php echo get_template_directory_uri(); ?>/assets/img/may.svg" alt="">
                 </div>
-                <div class="b-txt b-padding">
+                <div class="b-widthM b-padding e-parent">
                     <p class="e-catch e-tcWhite">あなたは<br>投資用マンション被害に<br>あっているかもしれません。</p>
-                    <p class="e-cap e-tcWhite">不動産問題に精通している弁護士が<br>親身になって丁寧に対応します。<br>契約解消、売却のお手伝いなど、<br>身内よりも優しく丁寧に、<br>あなたの不安を解消するために尽力いたします。</p>
+                    <p class="e-cap e-tcWhite">不動産問題に精通している弁護士が<br>親身になって丁寧に対応します。<br>契約解消に向けた交渉など、<br>身内よりも優しく丁寧に、<br>あなたの不安を解消するために尽力いたします。</p>
                 </div>
             </section>
             <section id="question" class="l-contents l-bcDgray l-arrow">
-                <div class="b-widthL m-parallaxX">
-                    <img class="m-parallaxItem" src="<?php echo get_template_directory_uri(); ?>/assets/img/question.svg" alt="">
+                <div class="b-widthL m-parallaxX e-parent">
+                    <img class="m-parallaxItem e-child" src="<?php echo get_template_directory_uri(); ?>/assets/img/question.svg" alt="">
                 </div>
-                <div class="b-txt b-paddingArrow e-tcWhite">
+                <div class="b-widthS b-paddingArrow e-tcWhite e-parent">
                     <p class="e-catch">こんなお悩みは、ありませんか？</p>
                     <ul class="m-list">
                         <li class="m-listItem b-grid"><p class="e-txt">不動産会社から言われるままに購入してしまった</p></li>
@@ -43,7 +43,7 @@
                 </div>
             </section>
             <section id="case" class="l-contents l-bcGray l-arrow">
-                <div class="b-txt b-paddingBottom">
+                <div class="b-widthS b-paddingBottom">
                     <p class="e-catch e-tbOrange">そんなあなたの悩みに、<br>弁護士法人ＴＨＰが親身に<br>相談に乗ります。</p>
                     <p class="e-cap">他人に悩みを話すことは、勇気がいることかもしれませんが、あなたの幸せな生活を取り戻すために一度お話を聞かせてください。</p>
                 </div>
@@ -68,7 +68,7 @@
             <section id="price" class="l-contents">
                 <div class="b-widthS b-paddingBottom">
                     <h2 class="e-title"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/price_title.svg" alt=""></h2>
-                            <table class="m-tbl e-cap">
+                            <table class="m-tbl">
 	                            <tbody>
                                     <tr><td colspan="2">通常プラン</td></tr>
 		                            <tr><td>着手金</td><td>３０万円/税別</td></tr>
