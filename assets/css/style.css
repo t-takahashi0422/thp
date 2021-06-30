@@ -120,7 +120,7 @@ main {
     font-size: 7vw; }
     @media only screen and (min-width: 768px) {
       #hero h2 {
-        font-size: 3.7vw; } }
+        font-size: 2.7vw; } }
 
 /*
 
@@ -881,7 +881,7 @@ h1 img {
   line-height: 1.7; }
   @media only screen and (min-width: 768px) {
     .e-catch {
-      font-size: 3.2vw; } }
+      font-size: 2.7vw; } }
 
 .e-cap {
   font-size: 4vw;
