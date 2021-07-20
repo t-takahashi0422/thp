@@ -833,7 +833,8 @@ hamburger menu
   @media only screen and (min-width: 768px) {
     .m-pcNav {
       display: block;
-      width: 70%; }
+      width: 65vw;
+      max-width: 768px; }
       .m-pcNav__menuList {
         margin: 0;
         display: flex;
